@@ -1,0 +1,155 @@
+body{
+   max-width: 100%;
+    margin: 0;
+    font-family: Arial;
+    position: relative;
+    line-height: 1;
+}
+
+.contenu{
+  box-sizing: border-box;
+    font-variant-ligatures: no-common-ligatures;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+div.bbr{
+   
+   background-color: darkolivegreen;
+   display: flex;
+   font-size: 50px;
+   height: 200%;
+   padding: 1%; 
+   width: 100%;  
+}
+
+div.para{
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.logo{
+    position: relative;
+    height: 100px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-right: auto;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 300px;
+    overflow: hidden;
+    right: 5px;
+    bottom: 10px;
+}
+
+.video-background {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Ajustez la hauteur selon vos besoins */
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+nav {
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    height: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    font-size: 20px;
+    margin-right: 10px;
+    margin: 20px;
+  }
+  
+  nav a {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  nav a:hover {
+    background-color: #333333;
+    color: #ffffff;
+  }
+
+  div.page{
+    background-color: rgb(197, 197, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    
+  }
+  
+  div.page h2{
+    font-weight:lighter;
+    display: block;
+    white-space: nowrap;
+    font-size: 20px !important;
+    letter-spacing: normal !important;
+    line-height: 32px;
+    font-family: sans-serif;
+    text-transform: uppercase !important;
+    margin-left: 30px;
+    margin-bottom: 350px;
+  }
+
+  .container{
+    margin-left: -600px;
+    max-width: 1200px;
+    width: 95%;
+  }
+
+  .slider-wrapper .image-list{
+    display: grid;
+    gap: 18px;
+    font-size: 0;
+    overflow: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  .slider-wrapper .image-list ::-webkit-scrollbar{
+    display: none;
+  }
+
+  .slider-wrapper .image-list .image-item{
+    display: flex;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+/* Styles for extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  #wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
